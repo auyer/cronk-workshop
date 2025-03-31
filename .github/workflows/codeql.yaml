@@ -19,7 +19,7 @@ on:
   schedule:
     - cron: '39 8 * * 4'
 
-premissions:
+permissions:
   contents: read
 
 jobs:
