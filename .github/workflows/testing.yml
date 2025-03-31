@@ -9,7 +9,7 @@ on:
   push:
   pull_request:
 
-premissions:
+permissions:
   contents: read
 
 jobs:
