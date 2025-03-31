@@ -5,7 +5,7 @@ from cronk.json_routine import Json, Routine
 
 
 def json_to_cron(json: Dict) -> List[str]:
-    logger.debug(f"Converting json file to cron format")
+    logger.debug("Converting json file to cron format")
     js = _to_Json(json)
 
     output = js.intro
